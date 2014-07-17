@@ -3,26 +3,30 @@
 <head>
 	<meta charset="utf-8">
 	<title>Navbar</title>
-	<link rel="stylesheet" href="style.css">
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<style type="text/css">
+		.navbar-inverse .navbar-btn {
+		background-color: #333333;
+		border-color: #333333;
+		color: #999999;
+		}
+		.navbar-inverse .navbar-btn:hover {
+		color: #ffffff;
+		background-color: #333333;
+		}
+	</style>
 </head>
 <body>
 	<nav class="navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            		<span class="sr-only">Toggle navigation</span>
-            		<span class="icon-bar"></span>
-            		<span class="icon-bar"></span>
-            		<span class="icon-bar"></span>
-        		</button>
-        		<a class="navbar-brand" href="#">hwProj</a>
+				<a class="navbar-brand" href="#">hwProj</a>
         	</div>
-        	<div class="collapse navbar-collapse navbar-right">
+        	<div class="navbar-right">
           		<ul class="nav navbar-nav">
             		<li><button type="button" class="btn btn-default navbar-btn">Загрузить решение</button></li>
-            		<li class="active"><a href="#">Главная</a></li>
-            		<li><a href="#about">Задачи</a></li>
+            		<li><a href="#">Главная</a></li>
+            		<li class="active"><a href="#about">Задачи</a></li>
             		<li><a href="#contact">Группа</a></li>
             		<li><a href="#contact">Статьи</a></li>
             		<li><button type="button" class="btn btn-default navbar-btn">Выход</button></li>
