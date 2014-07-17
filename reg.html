@@ -3,47 +3,43 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Sign in</title>
-    
-
-    <!-- Le styles -->
-<link rel="stylesheet" href="style.css">
-<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <!--<style type="text/css">
-      body {
-        padding-top: 40px;
-        padding-bottom: 40px;
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+      .navbar-inverse .navbar-btn {
+      background-color: #444444;
+      border-color: #333333;
+      color: #999999;
       }
-
-     .form-signin {
-        max-width: 500px;
-        max-height: 1500px; 
-        padding: 19px 29px 29px;
-        margin: 0 auto 20px;
-        background-color: #fff;
-        border: 3px solid #616161;
-        -webkit-border-radius: 30px;
-           -moz-border-radius: 30px;
-                border-radius: 30px;
+      .navbar-inverse .navbar-btn:hover {
+      color: #ffffff;
+      background-color: #555555;
       }
-      
-        .form-signin-heading {
-			text-align: center;
-		}
-
-    </style>-->
- 
+    </style>
   </head>
 
   <body>
-
+<nav class="navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">hwProj</a>
+          </div>
+          <div class="navbar-right">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#contact">Группы</a></li>
+                <li><a href="#contact">Статьи</a></li>
+                <li><button type="button" class="btn btn-default navbar-btn">Вход</button></li>
+              </ul>
+          </div>
+    </div>
+  </nav>
 <div class="container">
 	<div class="row">
 		<div class="col-md-4"></div>
-		<div class="col-md-4">
+		<div class="col-md-4 ">
       		<form role="form-signin">
       			<div class="row">
       				
-        			<h1 class="form-signin-heading" align="center">Регистрация</h1>
+        			<h2 class="form-signin-heading" align="center">Регистрация</h2>
         		</div>
         		<div class="row">
         			<div class="form-group">
@@ -105,6 +101,6 @@
 </div>
 </div> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/j.."></script>
-<script src="../../dist/js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
   </body>
 </html>

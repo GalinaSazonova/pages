@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student</title>
+	<meta charset="utf-8">
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<style type="text/css">
+		.navbar-inverse .navbar-btn {
+		background-color: #444444;
+		border-color: #333333;
+		color: #999999;
+		}
+		.navbar-inverse .navbar-btn:hover {
+		color: #ffffff;
+		background-color: #555555;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">hwProj</a>
+        	</div>
+        	<div class="navbar-right">
+          		<ul class="nav navbar-nav navbar-right">
+            		<li><button type="button" class="btn btn-default navbar-btn">Загрузить решение</button></li>
+            		<li class="dropdown">
+			        	<a class="dropdown-toggle" data-toggle="dropdown" href="#contact">Задачи<span class="caret"></span></a>
+			        	<ul class="dropdown-menu" role="menu">
+			            	<li><a href="#">171</a></li>
+			          	</ul>
+			        </li>
+            		<li><a href="#contact">Группа</a></li>
+            		</li>
+            		<li><a href="#contact">Статьи</a></li>
+            		<li><button type="button" class="btn btn-default navbar-btn">Выход</button></li>
+          		</ul>
+        	</div>
+		</div>
+	</nav>
+	<div class="container">
+		<!-- News & Deadlines -->
+		<div class="row">
+			<div class="col-md-8">
+				<h1>Новости</h1>
+				<h5>К задаче 5.1 добавлено <a href="">замечание </a><small>10 минут назад</small></h5>
+				<h5>К задаче 5.3 добавлено <a href="">3 замечания </a><small>15 минут назад</small></h5>
+				<h5>К задаче 5.4 добавлено <a href="">2 замечания </a><small>15 минут назад</small></h5>
+				<h5>К задаче 5.5 добавлено <a href="">2 замечания </a><small>15 минут назад</small></h5>
+				<h5>К задаче 5.7 добавлено <a href="">4 замечания </a><small>15 минут назад</small></h5>
+				<div><ul class="pagination">
+					<li class="disabled"><a href="#">&laquo;</a></li>
+					<li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">&raquo;</a></li>
+				</ul></div>
+			</div>
+			<div class="col-md-4">
+			<div class="row">
+				<h1>Дедлайн</h1>
+				Осталось 3 дня:
+				<ul>
+					<li><a href="">3.2</a></li>
+				</ul>
+				Осталось 10 дней:
+				<ul>
+					<li><a href="">5.1</a></li>
+					<li><a href="">5.4</a></li>
+				</ul>
+			</div>
+			<div class="row">
+				<h1>Просроченные задачи</h1>
+				<ul>
+					<li><a href="">3.2</a></li>
+					<li><a href="">3.1</a></li>
+					<li><a href="">3.4</a></li>
+					<li><a href="">5.2</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
